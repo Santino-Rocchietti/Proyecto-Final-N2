@@ -44,9 +44,9 @@ Para este proyecto se trabajó con la **Bases de Víctimas Fatales en Siniestros
 En este [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales) se encuentran los datos utilizados en el análisis.
 
 
--`Proceso de ETL (Extracción, limpieza y carga de datos)` se realiza la extraccíon y limpieza de los datos de los dos dataset `HECHOS` y `VICTIMAS`, a tráves de la utilización de Pandas y Jupyter Netbook que se pueden encontrar [aqui](ETL_ProyectoI2.ipynb) Eliminando nulos, duplicados, con transformaciones necesarias como cambio en los tipos de datos, eliminación de columnas y unión de las tablas en un archivo [siniestros_limpio.csv](DataPI2/siniestros_limpio.csv)
+-`Proceso de ETL (Extracción, limpieza y carga de datos)` se realiza la extraccíon y limpieza de los datos de los dos dataset `HECHOS` y `VICTIMAS`, a tráves de la utilización de Pandas y Jupyter Netbook que se pueden encontrar [aqui](https://github.com/Santino-Rocchietti/Proyecto-Final-N2/blob/main/ETL%20ProyectoI2.ipynb) Eliminando nulos, duplicados, con transformaciones necesarias como cambio en los tipos de datos, eliminación de columnas y unión de las tablas en un archivo [siniestros_limpio.csv](DataPI2/siniestros_limpio.csv)
 
--`Proceso de EDA (Análisis Exploratorio de los datos)` una vez que los datos están limpios, es momento de revisar las relaciones que existen entre las variables numéricas y categóricas de los datasets, encontrar si hay presencia de outliers o anomalías (que no tienen que ser errores necesariamente), y se verificó si hay algún patrón o conocimiento que sirva en un análisis posterior. A continuacion se podra ingresar a dicho [EDA](EDA_siniestros.ipynb)
+-`Proceso de EDA (Análisis Exploratorio de los datos)` una vez que los datos están limpios, es momento de revisar las relaciones que existen entre las variables numéricas y categóricas de los datasets, encontrar si hay presencia de outliers o anomalías (que no tienen que ser errores necesariamente), y se verificó si hay algún patrón o conocimiento que sirva en un análisis posterior. A continuacion se podra ingresar a dicho [EDA](https://github.com/Santino-Rocchietti/Proyecto-Final-N2/blob/main/EDA%20siniestros.ipynb)
 
 ### Análisis de los datos⛔
 
