@@ -45,7 +45,7 @@ En este [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viale
  
 
 -`Proceso de EDA (Análisis Exploratorio de los datos)`: parte del EDA se podra encontrar en el archivo llamado ETL [aqui](https://github.com/Santino-Rocchietti/Proyecto-Final-N2/blob/main/ETL%20ProyectoI2.ipynb) Lo que se realiza es la extraccíon y limpieza de los datos de los dos dataset `HECHOS` y `VICTIMAS`, a tráves de la utilización de Pandas y Jupyter Netbook.  Eliminando nulos, duplicados, con transformaciones necesarias como cambio en los tipos de datos, eliminación de columnas y unión de las tablas en un archivo [siniestros_limpio.csv](DataPI2/siniestros_limpio.csv)  una vez que los datos están limpios, es momento de revisar las relaciones que existen entre las variables numéricas y categóricas de los datasets, encontrar si hay presencia de outliers o anomalías (que no tienen que ser errores necesariamente), y se verificó si hay algún patrón o conocimiento que sirva en un análisis posterior. A continuacion se podra ingresar a dicho [EDA](https://github.com/Santino-Rocchietti/Proyecto-Final-N2/blob/main/EDA%20siniestros.ipynb)
-(A pesar de que importe la libreria warnings siguio saltando el error y no pude resolver eso)
+(A pesar de que importe la libreria warnings siguio saltando el error y no pude hacer que se fuera el warning de importacion durante el EDA)
 
 ### Análisis de los datos⛔
 
